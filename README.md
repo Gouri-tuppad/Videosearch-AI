@@ -34,7 +34,7 @@ The **AI Natural Language Video Search System** is an intelligent end-to-end vid
 ## Project Structure
 
 ```
-videoprompt2/
+Videosearch-AI/
 ├── app/
 │   ├── main.py                     # FastAPI application entrypoint & static mounts
 │   ├── pipeline.py                 # Background pipeline: sampling, YOLOv8, CLIP, clipping
@@ -106,8 +106,8 @@ videoprompt2/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/videoprompt2.git
-cd videoprompt2
+git clone https://github.com/Gouri-tuppad/Videosearch-AI.git
+cd Videosearch-AI
 ```
 
 ### 2. Set Up Virtual Environment
