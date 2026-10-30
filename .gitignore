@@ -1,0 +1,78 @@
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model Weights
+*.pt
+*.pth
+*.bin
+*.onnx
+yolov8n.pt
+
+# Video & Media Files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+*.wmv
+*.flv
+
+# Generated Data & Storage Folders
+data/
+uploads/
+clips/
+faiss_indexes/
+embeddings/
+frames/
+processing/
+videos/
+thumbnails/
+previews/
+temp/
+tmp/
+logs/
+
+# SQLite & Databases
+*.db
+*.sqlite
+*.sqlite3
+app.db
+
+# Vector Index Files
+*.index
+
+# Log Files & Test Outputs
+*.log
+pipeline_test.log
+check_output.txt
+
+# Frontend Build & Node Modules
+node_modules/
+dist/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache

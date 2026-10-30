@@ -1,0 +1,16 @@
+fastapi==0.115.0
+uvicorn[standard]==0.31.0
+pydantic-settings==2.3.4
+sqlalchemy==2.0.35
+python-dotenv==1.0.1
+python-multipart==0.0.9
+opencv-python==4.10.0.84
+numpy>=1.26.0,<2.0.0
+ultralytics>=8.3.0
+transformers==4.40.0
+torch>=2.2
+torchvision
+faiss-cpu>=1.8.0
+pillow
+httpx>=0.27.0
+pytest>=8.0.0
